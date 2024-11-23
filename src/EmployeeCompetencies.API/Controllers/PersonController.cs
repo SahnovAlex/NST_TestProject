@@ -80,7 +80,7 @@ public class PersonController : ControllerBase
     /// <responce code ="400"> Неверный запрос. </responce>>
     /// <responce code ="500"> Серверная ошибка. </responce>>
     [HttpPost]
-    [ProducesResponseType(typeof(Person), 200)]
+    [ProducesResponseType(typeof(long), 200)]
     [ProducesResponseType(typeof(List<string>), 400)]
     [ProducesResponseType(typeof(List<string>), 500)]
     public async Task<IActionResult> Create([FromBody] PersonRequest model,
@@ -122,7 +122,7 @@ public class PersonController : ControllerBase
     /// </responce>>
     /// <responce code ="500"> Серверная ошибка. </responce>>
     [HttpPut("id")]
-    [ProducesResponseType(typeof(Person), 200)]
+    [ProducesResponseType(typeof(long), 200)]
     [ProducesResponseType(typeof(List<string>), 400)]
     [ProducesResponseType(typeof(List<string>), 404)]
     [ProducesResponseType(typeof(List<string>), 500)]
