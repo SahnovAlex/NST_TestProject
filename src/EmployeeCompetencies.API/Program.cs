@@ -6,6 +6,12 @@ using EmployeeCompetencies.UseCases.Abstractions;
 using EmployeeCompetencies.DataAccess.Repositories;
 using EmployeeCompetencies.UseCases.Validators;
 
+// Небольшие изменения 1
+
+// Небольшие изменения 2
+
+// Небольшие изменения 3
+
 var builder = WebApplication.CreateBuilder(args);
 
 var services = builder.Services;
