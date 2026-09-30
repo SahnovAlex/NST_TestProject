@@ -8,6 +8,18 @@ using EmployeeCompetencies.UseCases.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Небольшие изменения 1
+// Небольшие изменения 11
+
+// Небольшие изменения 2
+// Небольшие изменения 22
+
+// Небольшие изменения 3
+// Небольшие изменения 33
+
+// Небольшие изменения 4
+// Небольшие изменения 44
+
 var services = builder.Services;
 
 services.AddControllers();
